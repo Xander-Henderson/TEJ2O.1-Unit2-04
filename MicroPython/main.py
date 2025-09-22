@@ -6,7 +6,7 @@ This module is a Micro:bit MicroPython program
 
 from microbit import *
 
-# our variable for the temperature
+#variable for the temperature
 temperature_of_microbit = 0
 
 display.clear()
