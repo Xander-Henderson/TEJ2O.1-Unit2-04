@@ -1,12 +1,12 @@
 """
-Created by: Mr. Coxall
-Created on: Sep 2020
-This module is a Micro:bit MicroPython program
+Created by: Alexander
+Created on: Sep 2025
+This module shows the temperature of the microbit
 """
 
 from microbit import *
 
-#variable for the temperature
+# variable for the temperature
 temperature_of_microbit = 0
 
 display.clear()
