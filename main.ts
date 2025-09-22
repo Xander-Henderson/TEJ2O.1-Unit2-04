@@ -13,5 +13,5 @@ basic.showIcon(IconNames.Happy)
 
 input.onButtonPressed(Button.A, function() {
     temperatureOfMicrobit = input.temperature()
-    basic.showNumber(temperatureOfMicrobit)
+    basic.showString(" The temperature is: " + temperatureOfMicrobit.toString())
 })
