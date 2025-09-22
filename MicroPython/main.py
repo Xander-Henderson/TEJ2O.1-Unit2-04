@@ -15,4 +15,4 @@ display.show(Image.HAPPY)
 while True:
     if button_a.is_pressed():
         temperature_of_microbit = input.temperature()
-        display.show(str(temperature_of_microbit))
+        display.show('The temperature is: ' + str(temperature_of_microbit))
